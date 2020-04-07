@@ -4,6 +4,6 @@
              xmlns:local="clr-namespace:Lab1"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
-    </Application.Resources>
+		<ResourceDictionary Source="xamlResources/ToggleButton.xaml"/>
+	</Application.Resources>
 </Application>
