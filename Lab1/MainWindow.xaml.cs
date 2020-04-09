@@ -434,7 +434,7 @@ namespace Lab1
             }
             for (int i = 0; i < stress.Length; i++)
             {
-                stress[i] = (stress[i] / max) * 50;
+                stress[i] = (stress[i] / max) * 100;
             }
             for (int i = 0; i < stress.Length; i++)
             {

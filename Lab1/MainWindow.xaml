@@ -39,7 +39,7 @@
 			<Path x:Name="ConstrainUp"  Grid.Row="0" Data="M 20,22 L 270,22 M 30,22 L 40,8 M 50,22 L 60,8 M 70,22 L 80,8 M 90,22 L 100,8 M 110,22 L 120,8 M 130,22 L 140,8 M 150,22 L 160,8 M 170,22 L 180,8 M 190,22 L 200,8 M 210,22 L 220,8 M 230,22 L 240,8 M 250,22 L 260,8" Stroke="#FF43DDCF" Visibility="Collapsed" StrokeThickness="2.5"/>
 			<Path x:Name="ConstrainDown" Grid.Row="4" Data="M 20,2 L 270,2 M 30,18 L 40,2 M 50,18 L 60,2 M 70,18 L 80,2 M 90,18 L 100,2 M 110,18 L 120,2 M 130,18 L 140,2 M 150,18 L 160,2 M 170,18 L 180,2 M 190,18 L 200,2 M 210,18 L 220,2 M 230,18 L 240,2 M 250,18 L 260,2" Stroke="#FF43DDCF" Visibility="Visible" StrokeThickness="2.5"/>
 			<CheckBox Content="1" HorizontalAlignment="Center"  VerticalAlignment="Bottom" Grid.Row="0" Checked="CheckBox_Checked" Unloaded="CheckBox_Unloaded" Unchecked="CheckBox_Unchecked"/>
-			<CheckBox Content="2" HorizontalAlignment="Center"  VerticalAlignment="Top" Grid.Row="1" Margin="132,85.4,132,0" Checked="CheckBox_Checked_1" Unchecked="CheckBox_Unchecked_1"/>
+			<CheckBox Content="2" HorizontalAlignment="Center"  VerticalAlignment="Bottom" Grid.Row="1"  Checked="CheckBox_Checked_1" Unchecked="CheckBox_Unchecked_1"/>
 			<CheckBox Content="3" HorizontalAlignment="Center"  VerticalAlignment="Bottom" Grid.Row="2" Checked="CheckBox_Checked_2" Unchecked="CheckBox_Unchecked_2"/>
 			<CheckBox Content="4" HorizontalAlignment="Center"  VerticalAlignment="Bottom" Grid.Row="3" Checked="CheckBox_Checked_3" Unchecked="CheckBox_Unchecked_3"/>
 			<Path x:Name="Force1Up" Data="M 145,45 L 145,7 M 146,8 L 134,23 M 144,8 L 156, 23" Grid.Row="0" Stroke="#FFFF9B9B" Visibility="Collapsed" StrokeThickness="3" VerticalAlignment="Bottom"/>
