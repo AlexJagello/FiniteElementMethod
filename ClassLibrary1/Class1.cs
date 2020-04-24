@@ -39,7 +39,7 @@ namespace ClassLibrary1
         public Class1()
         {
                 string readPath = @"TextFileForCalculate.txt";
-                fstream = new FileStream(readPath, FileMode.OpenOrCreate);
+                fstream = new FileStream(readPath, FileMode.Open);
             CultureInfo.CurrentCulture = new CultureInfo("en-EN", false);
             byte[] array = new byte[fstream.Length];
             fstream.Read(array, 0, array.Length);
